@@ -14,7 +14,7 @@ if ($userMessage === '') {
 
 /* ============== config da IA google ============== */
 $model   = 'gemini-2.0-flash';  
-$apiKey  = 'AIzaSyBB94jU6FhNp9cOFb_HxDNnoSc65UyYPuA'; //KEY
+$apiKey  = ''; //KEY
 /* ============================================= */
 
 $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/{$model}:generateContent?key={$apiKey}";
